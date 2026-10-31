@@ -1,0 +1,2 @@
+import { HeartPulse } from 'lucide-react';
+export default function Logo({compact=false}){return <div className="flex items-center gap-3"><span className="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-600 text-white shadow-lg shadow-orange-200"><HeartPulse size={25}/></span>{!compact&&<div><div className="text-xl font-black tracking-tight">Hokena <span className="text-brand-600">Care</span></div><div className="text-[10px] font-semibold uppercase tracking-[.2em] text-orange-400">Care beyond borders</div></div>}</div>}
